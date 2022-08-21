@@ -1,0 +1,132 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:black;
+    background-image: url("netflix.jpg");
+    background-repeat:no-repeat;
+    background-size:100%;
+}
+header {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: #de3f3f;
+    cursor: pointer;
+}
+nav li {
+    display: inline-block;
+    margin: 15px 20px;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    cursor:pointer;
+    margin-right:30px;
+    display:inline-flex;
+}
+
+#into {
+    width: 30%;
+    padding:10px 15px;
+    height: 700px;
+    margin-left: 65%;
+    font-family: Broadway;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 150px;
+    background-color: #de3f3f;
+    border-radius: 10px;
+}
+#login {
+    font-family: Arial;
+    color: #499ddb;
+    font-size:15px;   
+    cursor:pointer;
+    font-weight:bold;
+}
+#fname {
+    font-size: 30px;
+    padding:10px 15px;
+
+}
+#pword {
+    font-size: 40px;
+    
+    
+}
+#submit{
+   margin-left:10%;
+   margin-right:40%;
+   
+}
+#Favo1{
+    color:black;
+    font-family:Arial;
+    margin-bottom:-10px;
+    
+}
+
+span {
+    color: #f08080;
+    
+}
+#border{
+    
+    width:100%;
+    height:120px;
+   padding:15px;
+}
+.grid{
+    display:grid;
+    padding:2px;
+    width:40%;
+    margin-top:-50%;
+    grid-template-columns:80%;
+    grid-template-rows:300px 300px 300px 300px 300px; 
+    
+}
+.margin1, .margin2, .margin3, .margin4, .margin5 {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    cursor:pointer;
+}
+.margin1{
+    width:100%;
+    background-image:url("bg1.jpg");
+    background-repeat:no-repeat;
+}
+.margin2 {
+    
+    background-image: url("bg2.jpg");
+    
+}
+.margin3 {
+   
+    background-image: url("bg3.jpg");
+    
+}
+.margin4 {
+    
+    background-image: url("bg4.jpg");
+    
+    margin-bottom:20px;
+}
+.margin5 {  
+    background-image: url("bg5.png"); 
+}
+#b1 {
+    padding: 10px 15px;
+    background-color: #eb0556;
+}
+.margin11 {
+    background-image: url("bg1.jpg");
+}
+
+
+
+
